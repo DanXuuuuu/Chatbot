@@ -1,6 +1,11 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:blanchedalmond;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: blanchedalmond;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +27,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: "Lucida Console", "Courier New", monospace,bold;
+  font-weight: bold
 }
 
 .App-link {
-  color: #61dafb;
+  color: #aee0ee;
 }
 
 @keyframes App-logo-spin {
